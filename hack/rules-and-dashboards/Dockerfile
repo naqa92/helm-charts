@@ -1,4 +1,4 @@
-FROM golang:1.25-alpine3.22
+FROM golang:1.27-alpine
 
 RUN apk add make g++
 WORKDIR /app
